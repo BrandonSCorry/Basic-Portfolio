@@ -122,9 +122,12 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-#about p:last-child {
+#about p:nth-child(n+4) {
   margin-left: 25px;
-  margin-bottom: 30px
+}
+
+#about p:last-child {
+  margin-bottom: 30px;
 }
 
 img.img-profile {
